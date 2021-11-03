@@ -186,3 +186,26 @@ span {
 a:hover {
   opacity: 0.8;
 }
+/* desktop style */
+@media (min-width: 1078px) {
+  main {
+    display: flex;
+    background-color: white;
+    padding: 3rem;
+    max-width: 924px;
+    width: auto;
+  }
+  .results-section {
+    width: 100%;
+  }
+  .input-section {
+    width: 53%;
+    min-width: 53%;
+  }
+  .results-section button {
+    margin-top: 30%;
+  }
+  .results-section {
+    justify-content: center;
+  }
+}
